@@ -1,0 +1,42 @@
+
+
+.gallery {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.gallery li {
+	margin: 10px;
+	padding: 0;
+	/* float: right; */
+
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
+.gallery img {
+	background: #fff;
+	border: solid 1px #ccc;
+	padding: 4px;
+}
+.gallery span {
+	width: 20px;
+	height: 18px;
+	display: block;
+	position: absolute;
+	bottom: 25px;
+	right: 30px;
+}
+
+.gallery .photo {
+	background: url('https://hrc.iddrives.co.th//images/images_web/photo.gif') no-repeat;
+}
+.gallery a {
+	text-decoration: none;
+}
+.gallery span:hover img  {
+	border-color: #666;
+}
+/* .gallery span:hover span {
+	background-position: left -22px;
+} */

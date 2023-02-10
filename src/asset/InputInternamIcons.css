@@ -1,0 +1,52 @@
+/* icon circle */
+
+.icon-circle {
+    /* display: inline-block; */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 2px #888;
+    background-color: #FE8A5A;
+    color: white;
+ 
+    padding: 0.5em 0.6em;
+  
+  }
+
+.form-inside svg.bi {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+
+}
+
+.form-inside {
+    position: relative;
+    /* padding: 30px; */
+    /* padding-top: 40px; */
+}
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 80px !important; 
+    width: 100%;
+    height: 80px;
+}
+.left-inner-addon select {
+    padding-left: 80px !important; 
+    width: 100%;
+    height: 80px;
+}
+
+/* span.fa {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+
+.form-group {
+    position: relative;
+} */
